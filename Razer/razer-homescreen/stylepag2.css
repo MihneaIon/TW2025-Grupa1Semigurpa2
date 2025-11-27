@@ -1,0 +1,33 @@
+body{
+    display: inline block;
+    background-color: black;
+    font-family:"Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center; 
+    text-decoration: white;
+    color: white;
+}
+#header{
+    padding-top: 10px;
+    top: 0px;
+    height: 25px;
+    margin-top: 0px;
+        position: fixed;
+        background-color: black;
+        z-index: 9999;
+        width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            word-spacing: 50px;
+        color: rgba(255, 255, 255, 0.753);
+    border-bottom-style:green;
+    border-style:solid ;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid green;
+    padding-bottom:25px;
+}
+#Mobile{
+    color: inherit;
+    text-decoration: none;
+}

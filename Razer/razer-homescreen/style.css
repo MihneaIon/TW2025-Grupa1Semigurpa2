@@ -1,0 +1,253 @@
+body{
+    display: inline block;
+    background-color: black;
+    font-family:"Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center; 
+    text-decoration: white;
+    color: white;
+}
+#logo{
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+#header{
+    padding-top: 10px;
+    top: 0px;
+    height: 25px;
+    margin-top: 0px;
+        position: fixed;
+        background-color: black;
+        z-index: 9999;
+        width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            word-spacing: 50px;
+        color: rgba(255, 255, 255, 0.753);
+    border-bottom-style:green;
+    border-style:solid ;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid green;
+    padding-bottom:25px;
+}
+#next{
+    position: relative;
+    top: -230px;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+}
+#pic1{
+ 
+    width: 2000px;
+  
+} 
+#reclama{
+    font-size: 13px;
+    padding-top: 60px;
+    padding-bottom:15px ;
+    color:  white;
+    background-color: rgba(128, 128, 128, 0.685);
+    
+}
+#firsttext{
+    position: relative;
+ top:270px;
+}
+
+
+#pic2{
+    width: 2000px;
+}
+#second{
+    position: relative;
+    top: -380px;
+    font-size: larger;
+   color:  white;
+  display: inline-block;
+  word-spacing: 5px;
+}
+#secondtext{
+    position:relative;
+    top: 190px; ;
+}
+#test{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+ 
+}
+#kitty{
+    width: 2000px;
+    height: auto;
+    top: -375px;
+}
+#third{
+  position: relative;
+    top: -605px;
+    font-size: larger;
+   color:  white;
+  display: inline-block;
+  word-spacing: 5px;
+}
+button{
+    font-weight: 700;
+}
+#kittytext{
+    position: relative;
+    top: 300px;
+    color: black;
+}
+#laptoptext{
+    position:relative;
+top: 235px;
+font-size: medium;
+}
+#forth{
+  position: relative;
+    top: -780px;
+    left: 0px;
+    font-size: larger;
+   color:  white;
+  display: inline-block;
+  word-spacing: 5px;}
+#forthparent{
+    display: flex;
+}
+#forthsecond{
+     position: relative;
+    top: -805px;
+    left: 0px;
+    font-size: larger;
+   color:  white;
+  display: inline-block;
+  word-spacing: 5px;}
+#chairtext{
+    position:relative;
+     top: 235px;
+    font-size: medium;  
+    }
+
+#holidaytext{
+    position:relative;
+     top: 235px;
+     font-size: medium;
+}
+#fifth{
+  position: relative;
+    top: -780px;
+    left: 0px;
+    font-size: larger;
+   color:  white;
+  display: inline-block;
+  word-spacing: 5px;}
+#fifthparent{
+    display: flex;
+    position: relative;
+    top: -205px;
+}
+#fifthsecond{
+     position: relative;
+    top: -845px;
+    left: 0px;
+    font-size: larger;
+   color:  white;
+  display: inline-block;
+  word-spacing: 5px;}
+#headsettext{
+    position:relative;
+     top: 255px;
+    font-size: medium;  
+    }
+#green{
+   display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+#cardtext{
+    position:relative;
+     top: 225px;
+     font-size: medium;
+}
+#six{
+  position: relative;
+    top: -780px;
+    left: 0px;
+    font-size: larger;
+   color:  white;
+  display: inline-block;
+  word-spacing: 5px;}
+#sixparent{
+    display: flex;
+    position: relative;
+    top: -480px;
+}
+#sixsecond{
+     position: relative;
+    top: -755px;
+    left: 0px;
+    font-size: larger;
+   color:  white;
+  display: inline-block;
+  word-spacing: 5px;}
+#anniversarytext{
+    position:relative;
+     top: 195px;
+    font-size: medium;  
+    }
+#gold{
+   display: flex;
+  justify-content: center;
+  gap: 25px;
+}   
+
+#footer {
+    margin: right 20px; ;
+    padding: 25px;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgba(255, 255, 255, 0.555);
+    margin-bottom: 15px;
+    font-size: small;
+}
+
+#footer th {
+    text-align: start;
+    color: white;
+}
+
+#footer table {
+    padding: 20px;
+}
+
+#footer span {
+    color: green;
+}
+
+#end {
+    position: relative;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.555);
+    top: -1200px;
+}
+#finish {
+    padding-top: 5px;
+   border-top: 2px solid grey;
+    width: 50%;
+    margin: 20px auto 0;
+    display: flex;
+    width: 1200px;
+    font-size: small;
+    gap: 20px;
+}
+#biscuit{padding-left: 359px;}
+#Mobile{
+    color: inherit;
+    text-decoration: none;
+}
