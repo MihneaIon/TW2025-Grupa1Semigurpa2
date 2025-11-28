@@ -1,0 +1,28 @@
+.a{
+    display:flex;
+    align-items: center;
+    gap:20px;
+    background-color: black;
+    justify-content: center;
+    color:white;
+}
+.b{
+    width:80px;
+    height:80px;
+}
+li{
+    display:inline;
+     gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+menu{
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
