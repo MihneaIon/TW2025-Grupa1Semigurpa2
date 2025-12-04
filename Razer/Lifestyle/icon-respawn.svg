@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="36" viewBox="0 0 38 36">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="crop_box" data-name="crop box" width="38" height="36" transform="translate(7789 1028)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="icon-respawn" transform="translate(-7789 -1028)" clip-path="url(#clip-path)">
+    <g id="respawn_icon" data-name="respawn icon" transform="translate(7789 1028)">
+      <path id="Path_8243" data-name="Path 8243" d="M0,0,15.848,36h7.085L7.085,0Z" fill="#fff"/>
+      <path id="Path_8244" data-name="Path 8244" d="M36.176,17.489a11.036,11.036,0,0,0,1.8-6.323,12.074,12.074,0,0,0-.736-4.187,9.68,9.68,0,0,0-2.285-3.553A11.4,11.4,0,0,0,31.046.938,14.916,14.916,0,0,0,25.49,0H15.049l2.525,5.738H25.49a6.845,6.845,0,0,1,2.488.431,5.385,5.385,0,0,1,1.88,1.193,5.382,5.382,0,0,1,1.572,3.809,5.036,5.036,0,0,1-1.524,3.958A6.226,6.226,0,0,1,25.591,16.5H22.31l8.587,19.5h7.085L31.376,21.271a9.743,9.743,0,0,0,4.8-3.782" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,215 @@
+body{
+    display: inline block;
+    background-color: black;
+    font-family:"Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center; 
+    text-decoration: white;
+    color: white;
+}
+
+.learn{
+    color:green;
+    text-decoration: none;
+}
+
+#header{
+    padding-top: 10px;
+    top: 0px;
+    height: 25px;
+    margin-top: 0px;
+        position: relative;
+        background-color: black;
+        z-index: 9999;
+        width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            word-spacing: 50px;
+        color: rgba(255, 255, 255, 0.753);
+    border-bottom-style:green;
+    border-style:solid ;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid green;
+    padding-bottom:25px;
+}
+
+#lifestyle{
+    position: relative;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+    text-align:center;
+}
+
+#categories{
+    height: 30px;
+    background-color: gray;
+    position:relative;
+}
+
+#categories .select{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#chairs{
+    height: 700px;
+    position: relative;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+    text-align:center;
+    background-image: url(razer-gaming-chairs-category-hero-1200x700.webp);
+}
+
+#collabs{
+    height: 700px;
+    position: relative;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+    text-align:center;
+    background-image: url(collabs-category-1920x700-desktop.webp);
+}
+
+#customs{
+    height: 700px;
+    position: relative;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+    text-align:center;
+    background-image: url(1920x700-desktop-cat-customs.webp);
+}
+
+#bags{
+    height: 700px;
+    position: relative;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+    text-align:center;
+    background-image: url(lifestyle-category-bags-1920x700-desktop-cat-banner.webp)
+}
+
+#apparel{
+    height: 700px;
+    position: relative;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+    text-align:center;
+    background-image: url(team-razer-jersey-category-1920x700-desktop.webp);
+}
+
+#sneki{
+    height: 700px;
+    position: relative;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+    text-align:center;
+    background-image: url(lifestyle-sneki-snek-desktop-1920x700.webp);
+}
+
+#snekianim{
+    height: 700px;
+    position: relative;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+    text-align:center;
+    background-image: url(sneki-snek-s2-desktop-cat-banner.jpg)
+}
+
+#gameroom{
+    height: 700px;
+    position: relative;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+    text-align:center;
+    background-image: url(1920x700-desktop-cat-gamer-room.webp)
+}
+
+#gear{
+    height: 700px;
+    position: relative;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+    text-align:center;
+    background-image: url(lifestyle-gear.webp)
+}
+
+#respawn{
+    height: 700px;
+    position: relative;
+    font-size: large;
+    color: white;
+    font-weight: 400;
+    text-align:center;
+    background-image: url(lifestyle-respawn.jpg)
+}
+
+#appareltext{
+    top: -100px;
+}
+
+#footer {
+    margin: right 20px; ;
+    padding: 25px;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgba(255, 255, 255, 0.555);
+    margin-bottom: 15px;
+    font-size: small;
+}
+
+#footer th {
+    text-align: start;
+    color: white;
+}
+
+#footer table {
+    padding: 20px;
+}
+
+#footer span {
+    color: green;
+}
+
+#end {
+    position: relative;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+#finish {
+    padding-top: 5px;
+    border-top: 2px solid grey;
+    width: 50%;
+    margin: 20px auto 0;
+    display: flex;
+    width: 1200px;
+    font-size: small;
+    gap: 20px;
+}
+
+#biscuit{padding-left: 359px;}
+th{
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+tr{
+    padding: 10px;
+}
