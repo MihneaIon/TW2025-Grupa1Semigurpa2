@@ -1,11 +1,3 @@
-:root {
-    --bg-white: #ffffff;
-    --bg-black: #0e0e0e; 
-    --text-main: #191919;
-    --text-light: #ffffff;
-    --porsche-red: #d5001c;
-    --font-stack: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-}
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -195,3 +187,4 @@ hr.footer-divider { border: 0; border-top: 1px solid #333; margin-bottom: 30px; 
     .header { padding: 20px; }
 
 }
+
