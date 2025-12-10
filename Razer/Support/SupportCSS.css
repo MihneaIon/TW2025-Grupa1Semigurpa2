@@ -1,0 +1,273 @@
+body{
+    display: inline block;
+    background-color: black;
+    font-family:"Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center; 
+    text-decoration: white;
+    color: white;
+}
+
+#header{
+    padding-top: 10px;
+    top: 0px;
+    height: 25px;
+    margin-top: 0px;
+        position: relative;
+        background-color: black;
+        z-index: 9999;
+        width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            word-spacing: 50px;
+        color: rgba(255, 255, 255, 0.753);
+    border-bottom-style:green;
+    border-style:solid ;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid green;
+    padding-bottom:25px;
+}
+
+#welcome{
+    position: relative;
+    background-image: url(home_search_bg.jpg);
+    height: 395px;
+    width: 100%;
+    padding-top: 0px;;
+}
+
+#welcometext{
+    padding-top: 50px;
+}
+
+#search{
+    background: none;
+    color: lightgrey;
+    width: 40%;
+    height: 50px;
+}
+
+#search:focus{
+    border-color:limegreen;
+    border-style: solid;
+    border-width: 5px;
+}
+
+#categories{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+}
+
+#categoriestiny{
+    display: flex;
+    width: 80%;
+}
+
+.button{
+    color: white;
+    width: 10%;
+    text-decoration-line: none; 
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.button img{
+    width: 30px;
+    height: 30px;
+}
+
+.button:hover figcaption{
+    color:limegreen;
+}
+
+#popular{
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    background-color: rgb(34, 33, 33);
+}
+
+.poptitle{
+    font-weight:lighter;
+    font-size: normal;
+}
+
+.poplink{
+    color: white;
+    text-decoration-line: none;
+}
+
+.poplink:hover{
+    color:limegreen;
+}
+
+#videos{
+    width: 20%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 5px;
+}
+
+#topics{
+    width: 20%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+}
+
+#storehelp{
+    background-color: rgb(22, 22, 22);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.helptitle{
+    font-weight:bold;
+    font-size:medium;
+    text-align: center;
+}
+
+.helplist{
+    list-style-type: none;
+    text-align: left;
+}
+
+
+.helpbox{
+    width: 15%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.helpboxborder{
+    width: 15%;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: grey;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.helplink{
+    color: white;
+    text-decoration-line: none;
+}
+
+.helplink:hover{
+    color: limegreen;
+}
+
+.hlarrow{
+    color: limegreen;
+}
+
+#questions{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.figimg{
+    padding-bottom: 10px;
+}
+
+.figcap{
+    color: limegreen;
+}
+
+.contactbutton{
+    background-color: black;
+    border-color: limegreen;
+    color: limegreen;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+#insider{
+    width: 20%;
+    text-align: center;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: grey;
+}
+
+#contact{
+    width: 20%;
+    text-align: center;
+}
+
+#footer {
+    margin: right 20px; ;
+    padding: 25px;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgba(255, 255, 255, 0.555);
+    background-color: rgb(34, 33, 33);
+    margin-bottom: 15px;
+    font-size: small;
+}
+
+#footer th {
+    text-align: start;
+    color: white;
+}
+
+#footer table {
+    padding: 20px;
+}
+
+#footer span {
+    color: green;
+}
+
+#end {
+    position: relative;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+#finish {
+    padding-top: 5px;
+    border-top: 2px solid grey;
+    width: 50%;
+    margin: 20px auto 0;
+    display: flex;
+    width: 1200px;
+    font-size: small;
+    gap: 20px;
+}
+
+#biscuit{padding-left: 359px;}
+th{
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+tr{
+    padding: 10px;
+}
