@@ -1,0 +1,54 @@
+p{
+    font-family: 'asap',Arial, Helvetica, sans-serif;
+    font-size: 100;
+    color: rgb(38, 38, 38);
+}
+#intrebări{
+    margin-top: 210px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+.interbari-frecvente{
+    width: 600px;
+    margin-left: 400px;
+}
+.buton-intrebare1{
+    width: 650px;
+    height: 90px;
+    align-items: center;
+    margin-left: 20px;
+    border-top: rgb(221, 213, 213) 1px solid;
+    border-bottom: rgb(223, 216, 216) 1px solid;
+    border-left: 0;
+    border-right: 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    cursor: pointer;
+}
+.buton-intrebare1:hover{
+    color: rgb(41, 106, 202);
+    transition-duration: 0.2s;
+}
+.text-button{
+    text-align: left;
+    margin-left: 4px;
+    font-size: 24px;
+    display: inline-block;
+    margin-right: 0;
+    width: 600px;
+    
+}
+
+.arrow-button-section{
+    display: flex;
+    text-align: right;
+}
+.arrow-button{
+    font-size: 24px;
+    width: 40px;
+    display: inline-block;
+    margin-right: 0;
+    text-align: right;
+    color: rgb(189, 180, 180);
+}

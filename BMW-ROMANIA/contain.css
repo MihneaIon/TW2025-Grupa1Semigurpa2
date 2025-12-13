@@ -1,0 +1,248 @@
+.text-book1 {
+    display: block;
+    text-align: center;
+    font-family: 'asap', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    margin-top: 640px;
+    margin-bottom: 100px;
+}
+.description {
+    width: 869px;
+    height: 112px;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 1.6;
+}
+.container-modele-electrice {
+    background-color: rgba(243, 242, 242, 0.973);
+    padding-top: 50px;
+}
+.modele{
+    display: block;
+    text-align: center;
+    font-family: 'asap', sans-serif;
+    font-size: 34px;
+    font-weight: 200;
+    color:rgb(73, 71, 71,);
+}
+.descriere-modele{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button1-modele{
+    background-color: transparent;
+    color:rgb(20, 21, 22);
+    text-align: center;
+    text-decoration: none;
+    border-bottom: #000000 2px solid;
+    width: 182px;
+    height: 44px;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding-bottom: 30px;
+}
+.button2-modele{
+    background-color: transparent;
+    color:rgb(20, 21, 22);
+    text-align: center;
+    text-decoration: none;
+    border-bottom: #000000 5px solid;
+    width: 80px;
+    height: 44px;
+    border:none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding-bottom: 30px;
+}
+.button1-modele:hover, .button2-modele:hover{
+    border-bottom: #3a45e8 5px solid;
+    color:#3a45e8;
+}
+.button1-modele:focus,
+.button2-modele:focus,
+.button1-modele.is-active,
+.button2-modele.is-active {
+    border-bottom: #000000 5px solid;
+    color: #000000;
+}
+.container1,.container2, .container3{
+    width: 480px;
+    height: 750px;
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    margin-top: 70px;
+}
+.container-imagine1, .container-imagine2, .container-imagine3{
+    width: 480px;
+
+}
+.image1-modele{
+     width: 480px;
+    height: 250px;
+    object-fit: cover;
+    display: inline-block;
+}
+.image2-modele{
+    width: 480px;
+    height: 250px;
+    object-fit: cover;
+    display: inline-block;
+}
+.image3-modele{
+    width: 480px;
+    height: 250px;
+    object-fit: cover;
+    display: inline-block;
+}
+.titlu-modele{
+    width: 370px;
+    display: block;
+    font-family: 'asap', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    color: #000000;
+    margin-left: 50px;
+}
+.container-logo2{
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+    object-fit: contain;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-top: 24px;
+}
+.logo-M{
+    width: 70px;
+    height: 38px;
+    object-fit: cover;
+    display: inline-block;
+}
+.logo-titlu2{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.titlu-modele2{
+    width: 370px;
+    display: inline-block;
+    font-family: 'asap', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    color: #000000;
+    margin-left: 10px;
+    margin: 0;
+}
+.underline1, .underline2, .underline3{
+  border-bottom: #5b5858 1px solid;
+  margin-bottom: 20px;
+}
+.underline1{
+    width: 470px;
+    height: 60px;
+}
+.underline2{
+    width: 470px;
+    height:86px
+}
+.underline3{
+    width: 470;
+    height: 60px;
+}
+.autonomie-electrica{
+    display: block;
+    text-align: left;
+}
+.icon-battery{
+    margin-left: 0;
+    vertical-align: top;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: left;
+}
+.autonomie-logo{
+    background-color: transparent;
+    width: 40px;
+    height: 30px;
+    object-fit: contain;
+}
+.text1-autonomie{
+    vertical-align:top;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 5px;
+    width:auto;
+    height: 20px;
+}
+.text2-autonomie{
+    font-size:22px;
+    width:470px;
+    padding-left: 53px;
+    text-align: left;
+    border-bottom: #5b5858 1px solid;
+}
+.text1-autonomie-special{
+    vertical-align:top;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 5px;
+    width:390px;
+    height: 20px;
+}
+.info-consum{
+    padding-bottom: 20px;
+    padding-top: 55px; 
+    margin-bottom:40px
+}
+.info-consum p{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 12px;
+    color:#7d7777;
+    padding-left: 100px;
+    margin: 0;
+    padding-bottom: 0;
+    width: auto;
+    
+}
+.info{
+    width: 15px;
+    height: 12px;
+    display: inline-block;
+    cursor: pointer;
+}
+.button-relativ{
+    position: fixed;
+    right: 60px;
+    bottom: 130px;
+    border-radius: 60px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    background-color: white;
+    border: 0;
+    box-shadow: 0 0px 12px rgba(0,0,0,0.22);;
+}
+.button-relativ:hover{
+    cursor: pointer;
+    width: 56px;
+    height: 56px;
+    transition-duration: 0.5s;
+}
+.button-img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}

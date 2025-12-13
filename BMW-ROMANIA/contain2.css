@@ -1,0 +1,136 @@
+p{
+    font-family: 'asap',Arial, Helvetica, sans-serif;
+    font-size: 100;
+    color: rgb(38, 38, 38);
+
+}
+.subtitlu{
+    font-size:35px;
+    font-weight: 100px;
+    text-align: center;
+    border-top: 120px;
+    border-bottom: 40px;
+}
+.imagine1-container2,.imagine2-container2{
+    display: inline-block;
+    width: 640px;
+    height: 700px;
+    vertical-align: top;
+    margin-bottom: 0px;
+}
+.imagine1-container2{
+    margin-left: 100px;
+    margin-right: 20px;
+}
+.imagine2-container2{
+    margin-left: 0;
+    margin-right: 30px;
+}
+.imagine1-container2-img{
+    width: 640px;
+    object-fit: contain;
+    object-position: top;
+}
+.imagine2-container2-img{
+    width: 640px;
+    object-fit: contain;
+    object-position: top;
+}
+.text1-imagine1-container2{
+    font-size: 24px;
+}
+.text2-imagine1-container2{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.text3-imagine1-container2{
+    font-weight: bold;
+    font-size: 16px;
+}
+.text3-imagine1-container2:hover{
+    color:rgb(41, 106, 202);
+}
+.beneficii{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+.beneficii-container1, .beneficii-container2, .beneficii-container3{
+    vertical-align: top;
+    width: 420px;
+}
+.beneficii-container1{
+    margin-left: 120px;
+    display: inline-block;
+    margin-top: 25px;
+    
+}
+.beneficii-container2{
+    padding-left: 20px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.beneficii-container3{
+    padding-left: 20px;
+    display: inline-block;
+}
+.iconuri-beneficii{
+    position: relative;
+    width: 300px;
+    top:0;
+    padding-left: 160px;
+}
+.iconuri-beneficii{
+    width: 70px;
+    height: 70px;
+}
+.iconuri-beneficii3{
+    object-fit: contain;
+    width: 110px;
+    height: 110px;
+    object-position: top;
+}
+.ajust{
+    position: relative;
+    width: 110px;
+    height: 99px;
+    top:0;
+    left: 160px;
+}
+.descriere-beneficii{
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+}
+.titlu-beneficii{
+    text-align: center;
+    font-size: 24px;
+    padding-right: 20px;
+}
+.titlu-beneficii2{
+    text-align: center;
+    font-size: 24px;
+    padding-right: 10px;
+}
+.beneficii-suplimentare{
+    margin-top: 20px;
+    background-color: white;
+    margin-left: 660px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: black 1px solid;
+    border-radius: 3px;
+}
+.beneficii-suplimentare p{
+    font-weight: 700;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 16px;
+    margin: 0;
+}
+.beneficii-suplimentare:hover{
+    border-radius: 3px;
+    border: black 3px solid;
+}
+
+
