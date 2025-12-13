@@ -50,7 +50,6 @@ img {
 .logo {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
     font-weight: 900;
     font-size: 20px;
     letter-spacing: 4px;
@@ -158,7 +157,6 @@ img {
     left: 0;
     width: 100%;
     padding: 25px;
-    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -524,3 +522,4 @@ hr.footer-divider {
     color: white;
     margin-top: 40px;
 }
+
