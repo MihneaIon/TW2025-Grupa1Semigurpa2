@@ -1,0 +1,307 @@
+.header-container{
+    height: 80px;
+    background-color: transparent;
+    align-items: stretch;
+    border-bottom: 1px solid white;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+.header-video{
+    width: 100%;
+    height: 670px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    position: absolute;
+    top: 14px;
+    left: 92px;
+    
+
+}
+.middle-section{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.right-section{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+  
+}
+.button1, .button2, .button3, .button4{
+    font-family: 'Asap', sans-serif;
+    font-weight: 600;
+    border:none;
+}
+.button1{
+    vertical-align: top;
+    background-color: transparent;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.button2{
+    vertical-align: top;
+    background-color: transparent;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.arrow-icon{
+    width: 18px;
+    height: 15px;
+    padding:none;
+    background-color: transparent;
+}
+.button3{
+    vertical-align: top;
+    background-color: transparent;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button4{
+    vertical-align: top;
+    background-color: transparent;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1, .button2, .button3, .button4{
+    padding-bottom: 25px;
+    padding-top: 16px;
+}
+.button1:hover, .button2:hover, .button3:hover, .button4:hover {
+    border-bottom: rgb(62, 97, 239) 3px solid;
+    vertical-align: top;
+}
+
+.person-icon{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 16px;
+    width: 30px;
+    height: 75px;
+    object-fit: cover;
+}
+.person-img{
+    width: 24px;
+    height: 84px;
+    object-fit: cover;
+    object-fit: contain;
+}
+.shopping-cart-icon{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 16px;
+    max-width: 30px;
+    height: 75px;
+    object-fit: cover;
+}
+.shopping-cart-img{
+    max-width: 24px;
+    height: 80px;
+    object-fit: cover;
+    object-fit: contain;
+}
+.favorite-icon{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 16px;
+    width: 30px;
+    height: 75px;
+    object-fit: cover;
+}
+.favorite-img{
+    max-width: 24px;
+    height: 80px;
+    object-fit: cover;
+    object-fit: contain;
+}
+.location-icon{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 130px;
+    width: 30px;
+    height: 75px;
+    object-fit: cover;
+}
+.location-img{
+    max-width: 24px;
+    height: 84px;
+    object-fit: cover;
+    object-fit: contain;
+}
+.person-icon, .shopping-cart-icon, .favorite-icon, .location-icon{  
+    padding-bottom: 13px;
+    padding-top: 0;
+}
+.person-icon:hover, .shopping-cart-icon:hover, .favorite-icon:hover, .location-icon:hover {
+    border-bottom: rgb(62, 97, 239) 3px solid;
+    vertical-align: top;
+}
+.text-overlay1 {
+    position: absolute;
+    top: 230px;
+    left: 7%;
+    color: white;
+    font-size: 48px;
+    font-family: 'asap', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+.text-overlay2 {
+    position: absolute;
+    top: 290px;
+    left: 7%;
+    color: white;
+    font-size: 28px;
+    font-family: 'asap', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+.explore-button{
+    position: absolute;
+    top: 360px;
+    left: 7%;
+    background-color: #1C69D4;
+    border: none;
+    color: white;
+    padding: 18px 54px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Asap', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.description{
+    width: 869px;
+    height: 32px;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.description-NK{
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+.video1{
+    width: 1400px;
+    height: 700px;
+    margin-left: 50px;
+    margin-right: 0px;
+}
+.description-title-NK2{
+    font-size: 35px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 30px;
+}
+.description-NK2 {
+    width: 869px;
+    height: 32px;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+.text-book2 {
+    display: block;
+    text-align: center;
+    font-family: 'asap', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.video3{
+    margin-left: 0px;
+    width: 800px;
+    height: 500px;
+    display: inline-block;
+    object-fit: cover;
+}
+.spatiere{
+    height: 40px;
+}
+.text-book3 {
+    display: block;
+    text-align: center;
+    font-family: 'asap', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.description-title-NK3{
+    font-size: 35px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.continut-infomativ-NK{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 200px;
+    padding-top: 200px;
+}   
+.titlu-mentiuni-legale2 {
+    font-size: 15px !important;
+    color: rgb(38, 38, 38) !important;
+}
+.mentiuni-legale2 p{
+    font-size: 13px;
+    color: rgb(159, 147, 147);
+    line-height: 1,5;
+}
+.mentiuni-legale2{
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+}

@@ -1,0 +1,93 @@
+p{
+    font-family: 'asap',Arial, Helvetica, sans-serif;
+    font-size: 100;
+    color: rgb(38, 38, 38);
+}
+.title4{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 45px;
+    color: rgb(38, 38, 38);
+}
+.info-left, .info-center, .info-right{
+    vertical-align: top;
+    width: 440px;
+    display: inline-block;
+    height: 730px;
+}
+.info-left{
+    margin-left: 100px;
+    display: inline-block;
+    margin-top: 25px;
+    
+}
+.info-center{
+    padding-left: 20px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.info-right{
+    padding-left: 20px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.img-left, .img-center{
+    width: 440px;
+    height: 300px;
+    object-fit: contain;
+    object-position: top;
+}
+.img-right{
+    object-fit: contain;
+    width: 440px;
+    height: 300px;
+    object-position: top;
+}
+.subtitle{
+    font-size: 24px;
+    text-align: left;
+    color: rgb(38, 38, 38);
+}
+.descriere{
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+    color: rgb(38, 38, 38);
+}
+a{
+    font-family: 'asap',Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(38, 38, 38);
+    text-decoration: none;
+    display: block;
+    padding-bottom: 3px;
+}
+a:hover{
+    color:rgb(41, 106, 202); ;
+}
+.titlu-mentiuni-legale {
+    font-size: 15px !important;
+    color: rgb(38, 38, 38) !important;
+}
+.mentiuni-legale p{
+    font-size: 13px;
+    color: rgb(159, 147, 147);
+    line-height: 1,5;
+}
+.mentiuni-legale{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.mentiuni-legale a{
+    font-family: 'asap',Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(48, 46, 46);
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.mentiuni-legale a:hover{
+    color:rgb(41, 106, 202); ;
+}
