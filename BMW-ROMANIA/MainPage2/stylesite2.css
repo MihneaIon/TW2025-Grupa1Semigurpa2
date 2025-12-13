@@ -1,0 +1,850 @@
+/* === BMW.RO EXACT REPLICA === */
+            
+/* ===== RESET & BASE ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "BMWTypeNext", "Arial", sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ===== SECTION DIVIDER ===== */
+.section-divider {
+    height: 8px;
+    background: #f0f0f0;
+    width: 100%;
+    border: none;
+}
+
+/* ===== MAIN NAVIGATION ===== */
+.main-nav {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.main-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo img {
+    height: 32px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s;
+    cursor: pointer;
+}
+
+/* REMOVED HOVER EFFECT pentru border */
+.nav-link:hover {
+    border-bottom: 3px solid transparent;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-icon {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-icon:hover {
+    color: #1c69d4;
+}
+
+.cart-icon {
+    position: relative;
+}
+
+/* ===== DROPDOWN CU CHECKBOX (FĂRĂ JAVASCRIPT) ===== */
+
+/* Ascunde checkbox-urile */
+.dropdown-checkbox {
+    display: none;
+    position: absolute;
+}
+
+/* Stil pentru label-ul care înlocuiește link-ul */
+.dropdown-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s;
+}
+
+/* Dropdown menu - ascuns implicit */
+.has-dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    min-width: 300px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    padding: 25px;
+    pointer-events: none;
+}
+
+/* Când checkbox-ul este bifat, arată dropdown-ul */
+.dropdown-checkbox:checked ~ .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+/* Stil pentru când dropdown-ul este deschis */
+.dropdown-checkbox:checked ~ .dropdown-label {
+    border-bottom: 3px solid #000;
+}
+
+/* Săgeată pentru dropdown */
+.dropdown-arrow {
+    font-size: 10px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+/* PRIMUL ITEM - MODELE & CONFIGURATOR - FĂRĂ SĂGEATĂ */
+.nav-menu li:first-child > .nav-link::after {
+    content: none !important;
+}
+
+/* Hover pe label și link */
+.dropdown-label:hover,
+.nav-link:hover {
+    color: #1c69d4;
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.wide-dropdown {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    min-width: 800px;
+}
+
+.dropdown-section h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.dropdown-section ul {
+    list-style: none;
+}
+
+.dropdown-section li {
+    margin-bottom: 8px;
+}
+
+.dropdown-section a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.5;
+    transition: color 0.3s;
+}
+
+.dropdown-section a:hover {
+    color: #1c69d4;
+}
+
+.dropdown-image {
+    margin-top: 15px;
+}
+
+.dropdown-image img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.dropdown-image p {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.dropdown-link {
+    color: #1c69d4;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dropdown-link:hover {
+    text-decoration: underline;
+}
+
+/* ===== HERO SECTIONS ===== */
+.hero {
+    position: relative;
+    padding: 80px 0;
+    overflow: hidden;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+}
+
+/* Hero content centrat pentru FREUDE */
+.hero-content-center {
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 500px;
+}
+
+/* Text aliniat la stânga pentru iX3 */
+.hero-text-left {
+    max-width: 500px;
+    text-align: left;
+}
+
+/* Text centrat pentru FREUDE */
+.hero-text-center {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+
+.hero-subtitle {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.hero-tagline {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+/* Butoane centrate pentru FREUDE */
+.hero-buttons-center {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 14px 28px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.btn-dark {
+    background: #000;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background: #333;
+}
+
+.btn-blue {
+    background: #1c69d4;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background: #1557b8;
+}
+
+.btn-outline {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn-outline:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+/* Hero iX3 - cu fundal */
+.hero-ix3 .hero-background {
+    background-image: url('https://mediapool.bmwgroup.com/cache/P9/202508/P90615623/P90615623-the-new-bmw-ix3-50-xdrive-09-2025-600px.jpg');
+}
+
+.hero-ix3 {
+    background: linear-gradient(90deg, rgba(232, 240, 248, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);
+}
+
+.hero-ix3 .hero-text-left {
+    color: #000;
+}
+
+.model-label {
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #666;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.hero-model-large {
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+/* Hero X1 - cu fundal */
+.hero-x1 .hero-background {
+    background-image: url('https://media.ed.edmunds-media.com/bmw/x1/2025/oem/2025_bmw_x1_4dr-suv_m35i_fq_oem_1_500.jpg');
+    background-position: center 30%;
+}
+
+.hero-x1 {
+    background: rgba(245, 245, 245, 0.8);
+    color: #000;
+}
+
+/* Hero FREUDE - cu fundal */
+.hero-freude .hero-background {
+    background-image: url('https://media.whichcar.com.au/uploads/2022/03/7739085a-2023-bmw-i7-teaser-P90454289_highRes_the-new-bmw-7-series.jpg');
+    background-position: center 30%;
+}
+
+.hero-freude {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.hero-freude .hero-title-freude {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero-freude .hero-tagline {
+    color: #ccc;
+}
+
+/* Hero X3 - cu fundal */
+.hero-x3 .hero-background {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQek3aoeK_h2WBSkIrKV9Eh1rm0MOnA_T95xg&s');
+}
+
+.hero-x3 {
+    background: linear-gradient(135deg, rgba(28, 58, 118, 0.8) 0%, rgba(42, 82, 152, 0.8) 100%);
+    color: #fff;
+}
+
+.hero-x3 .hero-model {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hero-x3 .hero-subtitle-small {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.price-section {
+    margin-bottom: 30px;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.price-label {
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* ===== MODEL SELECTION ===== */
+.model-selection {
+    padding: 80px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #000;
+}
+
+.selection-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.selection-card {
+    width: 280px;
+    padding: 40px 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    background: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.selection-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    border-color: #1c69d4;
+}
+
+.card-icon {
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.selection-card h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.btn-card {
+    padding: 14px 28px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.btn-card:hover {
+    background: #333;
+}
+
+/* ===== WALLBOX SECTION ===== */
+.wallbox-section {
+    padding: 80px 0;
+    background: #f8f8f8;
+}
+
+.wallbox-content {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.wallbox-image {
+    flex: 0 0 auto;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wallbox-real-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.wallbox-text {
+    flex: 1;
+}
+
+.wallbox-text h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #000;
+}
+
+.wallbox-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 25px;
+    max-width: 600px;
+}
+
+.wallbox-link {
+    color: #1c69d4;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.wallbox-link:hover {
+    text-decoration: underline;
+}
+
+.disclaimer {
+    font-size: 14px;
+    color: #999;
+    font-style: italic;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    background: #111;
+    color: #fff;
+    padding: 60px 0 30px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #333;
+}
+
+.footer-app {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo {
+    height: 32px;
+}
+
+.footer-app span {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.footer-link {
+    color: #1c69d4;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column li {
+    margin-bottom: 12px;
+}
+
+.footer-column a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+.footer-column a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    border-top: 1px solid #333;
+}
+
+.footer-copyright {
+    color: #999;
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #999;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    width: 36px;
+    height: 36px;
+    background: #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 16px;
+}
+
+.social-icon:hover {
+    background: #1c69d4;
+}
+
+/* ===== CHAT ICON ===== */
+.chat-icon {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: all 0.3s;
+}
+
+.chat-icon:hover {
+    background: #333;
+    transform: scale(1.1);
+}
+
+.chat-icon svg {
+    width: 28px;
+    height: 28px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1200px) {
+    .footer-columns {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+    
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-text-left,
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .wallbox-content {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+    
+    .wallbox-image {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+    
+    .hero {
+        min-height: 500px;
+        padding: 60px 0;
+    }
+    
+    .hero-title {
+        font-size: 36px;
+    }
+    
+    .hero-subtitle {
+        font-size: 24px;
+    }
+    
+    .hero-model-large {
+        font-size: 56px;
+    }
+    
+    .hero-model {
+        font-size: 48px;
+    }
+    
+    .hero-buttons,
+    .hero-buttons-center {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer-columns {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .section-divider {
+        height: 8px;
+        margin: 0;
+    }
+}
