@@ -1,0 +1,135 @@
+:root {
+    --bmw-blue: #0076a8; 
+    --dark-grey: #1c1c1c; 
+    --light-grey: #f4f4f4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    color: #333;
+}
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-media-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+}
+
+.hero-image {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    display: block;
+}
+
+.image-caption-section {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.caption-container {
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.image-caption-section p {
+    font-size: 0.85em;
+    font-weight: 400;
+    color: #666;
+    line-height: 1.4;
+}
+
+.new-media-section {
+    background-color: white;
+    padding: 80px 0; 
+    text-align: center; 
+}
+
+.new-media-container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.centered-image {
+    width: 100%; 
+    height: auto; 
+    display: block;
+}
+
+.design-split-section {
+    background-color: white; 
+    padding: 100px 5%; 
+}
+
+.split-container {
+    display: flex;
+    gap: 50px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.split-content {
+    flex: 1; 
+    min-width: 300px;
+}
+
+.design-split-section .split-content-heading h2 {
+    color: var(--dark-grey);
+    font-size: 3.2em; 
+    font-weight: 300; 
+    line-height: 1.2;
+    text-align: left;
+    margin: 0;
+}
+
+.design-split-section .split-content-body p {
+    font-size: 1.05em; 
+    line-height: 1.8;
+    font-weight: 400; 
+    color: var(--dark-grey);
+    padding-top: 5px;
+}
+
+.color-selection-links {
+    padding: 60px 5%; 
+    background-color: white;
+}
+
+.color-selection-links h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: var(--dark-grey);
+    margin-bottom: 25px;
+    text-align: center; 
+}
+
+
+.selection-flex-container {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
